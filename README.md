@@ -1,13 +1,10 @@
-## React-Parcel Starter
+## Redux-Form Example
 
-A bare-bone starter template for react-app with parcel bundling for small applications.
+An example implementation of redux-form with React.
 
 ## Technology Stack
 
-- :package: [parcel](https://parceljs.org/getting_started.html) - a light-weight bundler with zero config.
-- :comet: [pretty-quick](https://github.com/azz/pretty-quick) - for code formatting and runs as a pre-commit hook.
-- :rainbow: [husky](https://github.com/typicode/husky) - for pre-commit hook.
-- :zap: [babel](https://babeljs.io/docs/en/) - for js compiling.
+- :zap: [react-parcel-starter](https://github.com/murshidazher/react-parcel-starter) - for bare-bone react application with parcel bundling.
 - :fire: [eslint](https://eslint.org/docs/user-guide/configuring) - for code linting and accessibility.
 
 ### Instructions

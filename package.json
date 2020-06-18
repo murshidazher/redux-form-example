@@ -5,7 +5,7 @@
   "homepage": "https://github.com/murshidazher/react-parcel-starter",
   "author": "Murshid Azher",
   "license": "ISC",
-  "main": "src/index.html",
+  "main": "public/index.html",
   "scripts": {
     "start": "npm run dev",
     "dev": "parcel src/index.html",
@@ -43,6 +43,9 @@
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.6"
   }
 }
