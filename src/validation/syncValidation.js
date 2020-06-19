@@ -8,3 +8,15 @@ export const maxLength = value =>
 
 export const matchesPassword = (value, allValues) =>
   value === allValues.password ? undefined : "Passwords must match";
+
+// async validation while the form is being filled out
+export const asyncValidate = values => {
+  const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+  return sleep(1000).then(() => {
+    if (["kent", "andy", "john", "joel"].includes(values.username)) {
+      return Promise.reject({
+        username: "Username already taken"
+      });
+    }
+  });
+};
